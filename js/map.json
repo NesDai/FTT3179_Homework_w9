@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 800,
   "height": 450,
-  "title": "Malaysia Organ Donation Pledges 2019",
   "projection": {
     "type": "equalEarth",
     "scale": 2500,
