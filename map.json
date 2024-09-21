@@ -1,9 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Using `labelExpr` to show only initial letters of month names.",
-  "data": {
-    "url": "://nesdai.github.io/FTT3179_Homework_w9/data/whosonfirst-data-admin-my-region-polygon.json",
-    "format": {"type": "topojson", "feature": "whosonfirst-data-admin-my-region-polygon"}
-  },
+  "data": 
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/deldersveld/topojson/master/countries/france/fr-departments.json",
+      "format": { "type": "topojson", "feature": "FRA_adm2" }
+    }
+  ,
   "mark": { "type": "geoshape" }
 }
