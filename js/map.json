@@ -10,7 +10,7 @@
   "layer": [
     {
       "data": {
-        "url": "data/malaysia.state.json",
+        "url": "https://nesdai.github.io/FTT3179_Homework_w9/data/malaysia.state.json",
         "format": { "type": "topojson", "feature": "malaysia.state" }
       },
       "mark": { "type": "geoshape", "stroke": "white" },
@@ -30,7 +30,7 @@
           "lookup": "properties.name",
           "from": {
             "data": {
-              "url": "data/total_organ_pledges_state_2019.csv",
+              "url": "https://raw.githubusercontent.com/NesDai/FTT3179_Homework_w9/refs/heads/main/data/total_organ_pledges_state_2019.csv",
               "format": { "type": "csv" }
             },
             "key": "States",
